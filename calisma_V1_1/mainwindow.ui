@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>692</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>692</width>
+    <height>421</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>AKILLI EV SİSTEMİ ODA MENÜSÜ</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="QIcon::ThemeIcon::GoHome"/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="1" column="0" colspan="2">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>551</width>
+        <height>161</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Segoe UI&quot;;
+</string>
+      </property>
+      <property name="title">
+       <string>ODA SİLME ve AD DEĞİŞTİRME</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>ODA:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="3">
+        <widget class="QPushButton" name="pushButtonOdayiSil">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1E90FF;  /* Dodger Blue */
+    border: 2px solid #1C86EE;  /* Steel Blue */
+    border-radius: 10px;
+    padding: 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+QPushButton:hover {
+    background-color: #63B8FF;  /* Light Sky Blue */
+}
+QPushButton:pressed {
+    background-color: #1C86EE;  /* Steel Blue */
+    padding-left: 5px;
+    padding-top: 5px;
+}</string>
+         </property>
+         <property name="text">
+          <string>ODAYI SİL</string>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="labelOdaAdi2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-size: 18px;
+font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QPushButton" name="pushButtonOdaAdiDeigisim">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1E90FF;  /* Dodger Blue */
+    border: 2px solid #1C86EE;  /* Steel Blue */
+    border-radius: 10px;
+    padding: 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+QPushButton:hover {
+    background-color: #63B8FF;  /* Light Sky Blue */
+}
+QPushButton:pressed {
+    background-color: #1C86EE;  /* Steel Blue */
+    padding-left: 5px;
+    padding-top: 5px;
+}</string>
+         </property>
+         <property name="text">
+          <string>ODANIN ADINI DEĞİŞTİR</string>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QLineEdit" name="lineEditOdaAdiDegisim"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>271</width>
+        <height>101</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Segoe UI&quot;;
+</string>
+      </property>
+      <property name="title">
+       <string>YENİ ODA EKLEME</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="0" colspan="2">
+        <widget class="QPushButton" name="pushButtonYeniOdaEkle">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1E90FF;  /* Dodger Blue */
+    border: 2px solid #1C86EE;  /* Steel Blue */
+    border-radius: 10px;
+    padding: 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+QPushButton:hover {
+    background-color: #63B8FF;  /* Light Sky Blue */
+}
+QPushButton:pressed {
+    background-color: #1C86EE;  /* Steel Blue */
+    padding-left: 5px;
+    padding-top: 5px;
+}</string>
+         </property>
+         <property name="text">
+          <string>ODA EKLE</string>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEditYeniOdaAdi">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>ODA ADI GİR:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>271</width>
+        <height>101</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Segoe UI&quot;;
+</string>
+      </property>
+      <property name="title">
+       <string>ODAYA GİT</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="1">
+        <widget class="QPushButton" name="pushButtonOdayaGit_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1E90FF;  /* Dodger Blue */
+    border: 2px solid #1C86EE;  /* Steel Blue */
+    border-radius: 10px;
+    padding: 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+QPushButton:hover {
+    background-color: #63B8FF;  /* Light Sky Blue */
+}
+QPushButton:pressed {
+    background-color: #1C86EE;  /* Steel Blue */
+    padding-left: 5px;
+    padding-top: 5px;
+}</string>
+         </property>
+         <property name="text">
+          <string>DİĞER BİLEŞENLER</string>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="labelOdaAdi">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-size: 18px;
+font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="pushButtonOdayaGit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1E90FF;  /* Dodger Blue */
+    border: 2px solid #1C86EE;  /* Steel Blue */
+    border-radius: 10px;
+    padding: 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+QPushButton:hover {
+    background-color: #63B8FF;  /* Light Sky Blue */
+}
+QPushButton:pressed {
+    background-color: #1C86EE;  /* Steel Blue */
+    padding-left: 5px;
+    padding-top: 5px;
+}</string>
+         </property>
+         <property name="text">
+          <string>PRİZLER VE LAMBALAR</string>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>ODA ADI:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QSpinBox" name="spinBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>692</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditYeniOdaAdi</tabstop>
+  <tabstop>pushButtonYeniOdaEkle</tabstop>
+  <tabstop>spinBox</tabstop>
+  <tabstop>pushButtonOdayaGit</tabstop>
+  <tabstop>pushButtonOdayaGit_2</tabstop>
+  <tabstop>pushButtonOdayiSil</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
